@@ -20,7 +20,7 @@ class MainActivity : AppCompatActivity() {
     }
 
     private fun rollDice(resultTextView: TextView) {
-        val dice = Dice(8)
+        val dice = Dice(9)
         val diceRoll = dice.roll()
         resultTextView.text = diceRoll.toString()
     }
